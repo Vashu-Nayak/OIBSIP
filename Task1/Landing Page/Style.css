@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    margin: 20px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.services, .about, .footer {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.services {
+    background: #f4f4f4;
+}
+
+.service-box {
+    margin: 20px 0;
+}
+
+.service-box h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 18px;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .hero h1 {
+        font-size: 64px;
+    }
+
+    .hero p {
+        font-size: 28px;
+    }
+
+    .services {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .service-box {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .nav-links {
+        justify-content: flex-end;
+    }
+}
